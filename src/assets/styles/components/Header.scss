@@ -1,0 +1,18 @@
+.header {
+  position: absolute;
+  width: 100vw;
+  z-index: 1;
+}
+
+.header_inside {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_pufi_menu {
+  display: flex;
+}
+
+.header_my_info {
+  display: flex;
+}

@@ -1,0 +1,27 @@
+.body {
+  background: white;
+}
+.body_inside {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+}
+
+.body_inside_left {
+  background: white;
+  height: 25em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.body_inside_left-photo-1 {
+  background-image: url(../../static/images/img/Umbrella.png);
+  background-size: cover;
+}
+
+.body_inside_items {
+  margin: 55px;
+  text-align: center;
+}
