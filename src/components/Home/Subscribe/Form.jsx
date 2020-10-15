@@ -37,7 +37,11 @@ const Form = () => {
             },
           })}
         />
-        <img src={Arrow} alt="Flecha a la derecha" />
+        <img
+          onClick={handleSubmit(onSubmit)}
+          src={Arrow}
+          alt="Flecha a la derecha"
+        />
       </form>
       <div className="subscribe">
         <p>{errors.email && errors.email.message}</p>

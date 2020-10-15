@@ -111,13 +111,19 @@
   .footer_inside {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+  .footer_inside_socials {
+    margin-left: 3em;
+  }
 }
 @media screen and (max-width: 520px) {
   .footer_inside {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .footer_inside_security {
+    margin-left: 3em;
+  }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
   .footer_inside {
     grid-template-columns: 1fr 1fr;
   }

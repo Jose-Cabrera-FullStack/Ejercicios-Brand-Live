@@ -52,6 +52,9 @@
   font-stretch: normal;
   font-style: italic;
 }
+.subscribe_form img {
+  cursor: pointer;
+}
 
 @media screen and (max-width: 520px) {
   .subscribe_form input {
