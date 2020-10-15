@@ -17,3 +17,8 @@ const Home = (props) => {
 };
 
 export default Home;
+
+// Nombre: José Miguel,
+// Apellido: Cabrera Prieto,
+// Tiempo de duracion de la evaluacion: 1 dia y medio.
+// URL: https://jose-cabrera-fullstack.github.io/Brand-live-build/#/home
