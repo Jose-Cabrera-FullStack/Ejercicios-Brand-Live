@@ -7,6 +7,7 @@ import Nap from "../assets/static/images/img/Pufi-nap.svg";
 import Puff from "../assets/static/images/img/Pufi-puff.svg";
 import Rain from "../assets/static/images/img/Pufi-rain.svg";
 import Arrow from "../assets/static/images/img/arrow-down.svg";
+import Hamburger from "../assets/static/images/img/mobile-Hamburger.svg";
 
 const Header = () => {
   return (
@@ -41,6 +42,9 @@ const Header = () => {
           <div>
             <p>MI COMPRA</p>
           </div>
+        </div>
+        <div className="header_mobile">
+          <img src={Hamburger} alt="Menu Hamburguesa" />
         </div>
       </div>
     </header>

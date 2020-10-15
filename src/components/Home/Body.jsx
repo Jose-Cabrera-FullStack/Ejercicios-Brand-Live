@@ -8,7 +8,7 @@ import Nap from "../../assets/static/images/img/tiny-nap.png";
 import Puff from "../../assets/static/images/img/tiny-puff.png";
 import "../../assets/styles/components/Body.scss";
 
-const Body = (props) => {
+const Body = () => {
   return (
     <div className="body">
       <div className="body_inside">

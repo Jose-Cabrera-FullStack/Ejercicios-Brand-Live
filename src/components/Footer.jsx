@@ -76,7 +76,7 @@ const Footer = () => {
         <div>
           <p> PUFI Copyright {year} - Todos los derechos reservados</p>
         </div>
-        <div>
+        <div className="footer_under_data_brand_live">
           <img src={LogoBrandLive} alt="Logo de BRAND LIVE" />
         </div>
       </div>

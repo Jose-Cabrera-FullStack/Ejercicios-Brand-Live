@@ -15,7 +15,7 @@
 .principal_title {
   text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.2);
   font-family: "myriad-light";
-  font-size: 59.2px;
+  font-size: 4em;
   line-height: 0.91;
   letter-spacing: -1.6px;
   color: #ffffff;
@@ -33,4 +33,16 @@
 .principal_absolute_button {
   position: relative;
   top: 4.2em;
+}
+
+@media screen and (max-width: 1024px) {
+  .principal_title {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .principal_title {
+    font-size: 2em;
+  }
 }

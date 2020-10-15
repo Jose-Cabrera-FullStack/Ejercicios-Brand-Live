@@ -10,11 +10,20 @@
 
 .body_inside_photo {
   background: white;
-  height: 32em;
+  height: 34em;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+// .body_triangle {
+//   position: absolute;
+//   left: 49%;
+// }
+// .body_triangle img {
+//   position: relative;
+//   top: 15em;
+// }
 
 .body_inside_photo-photo-1 {
   background-image: url(../../static/images/img/PUFI-Umbrella.png);
@@ -53,11 +62,56 @@
   background-size: cover;
 }
 
-.body_inside_right {
+.body_inside_item {
   display: flex;
 }
 
-.body_inside_items {
+.body_inside_item_items {
   margin: auto;
   text-align: center;
+}
+
+.body_inside_item_items h3 {
+  font-size: 28.3px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.99;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+}
+.body_inside_item_items hr {
+  width: 30px;
+  padding: 0;
+}
+.body_inside_item_items p {
+  font-size: 0.8em;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.65px;
+  text-align: center;
+  color: #484848;
+  width: 15em;
+  margin-top: 2em;
+}
+.body_inside_item_items h5 {
+  font-size: 11.9px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 3.57px;
+  text-align: center;
+  color: #000000;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .body_inside {
+    grid-template-columns: 1fr;
+  }
 }

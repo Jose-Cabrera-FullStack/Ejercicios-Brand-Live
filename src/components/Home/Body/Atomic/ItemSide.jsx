@@ -5,8 +5,8 @@ import "../../../../assets/styles/components/Body.scss";
 
 const ItemSide = ({ title, description, src }) => {
   return (
-    <div className="body_inside_right">
-      <div className="body_inside_items">
+    <div className="body_inside_item">
+      <div className="body_inside_item_items">
         <img src={src ? src : Umbrella} alt="Sombrilla color Naranja" />
         <h3>Pufi {title ? title : "RAIN"}</h3>
         <hr />
@@ -16,7 +16,7 @@ const ItemSide = ({ title, description, src }) => {
             : "Descrición del producto. Este es un texto simulado"}
         </p>
         <div>
-          <h5>{"> VER MÁS"}</h5>
+          <h5>{"> VER MAS"}</h5>
         </div>
       </div>
     </div>

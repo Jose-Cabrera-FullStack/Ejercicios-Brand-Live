@@ -2,7 +2,7 @@
   position: absolute;
   width: 100%;
   z-index: 1;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), #0000007d);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), #000000b5);
 }
 
 .header_inside {
@@ -33,7 +33,7 @@
 .header_my_info {
   display: flex;
   font-family: Nunito;
-  font-size: 10px;
+  font-size: 0.65em;
   font-weight: 100;
   font-style: normal;
   line-height: 2.68;
@@ -50,4 +50,21 @@
 }
 .header_my_info_profile img {
   margin-left: 7px;
+}
+
+.header_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .header_pufi_menu {
+    display: none;
+  }
+  .header_my_info {
+    display: none;
+  }
+  .header_mobile {
+    display: block;
+    margin: 2em;
+  }
 }

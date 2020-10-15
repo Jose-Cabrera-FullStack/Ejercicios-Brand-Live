@@ -43,7 +43,7 @@
 }
 
 .subscribe_form input {
-  width: 547px;
+  width: 32em;
   height: 42px;
   border: solid 0.5px #ffffff;
   font-family: Nunito;
@@ -51,4 +51,10 @@
   font-weight: normal;
   font-stretch: normal;
   font-style: italic;
+}
+
+@media screen and (max-width: 520px) {
+  .subscribe_form input {
+    width: 20em;
+  }
 }
