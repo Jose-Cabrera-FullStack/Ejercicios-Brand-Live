@@ -2,3 +2,53 @@
   margin: 0;
   text-align: center;
 }
+
+.subscribe h5 {
+  font-family: Nunito;
+  font-size: 0.8em;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #808285;
+  margin: 0.3em;
+}
+.subscribe h2 {
+  font-family: Nunito;
+  font-size: 2em;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.69;
+  letter-spacing: 0.87px;
+  text-align: center;
+  color: #000000;
+  margin: 0.3em;
+}
+.subscribe p {
+  font-family: Nunito;
+  font-size: 0.7em;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.33px;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+}
+
+.subscribe_form {
+  margin: 1.4em;
+}
+
+.subscribe_form input {
+  width: 547px;
+  height: 42px;
+  border: solid 0.5px #ffffff;
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+}

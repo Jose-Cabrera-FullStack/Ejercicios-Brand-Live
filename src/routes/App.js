@@ -11,6 +11,7 @@ import { connect } from "react-redux";
 
 import Home from "../containers/Home";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const App = (props) => {
   return (
@@ -20,6 +21,7 @@ const App = (props) => {
         <Redirect exact from="/" to="/home" component={Home} />
         <Route exact path="/home" component={Home} />
       </Switch>
+      <Footer />
     </Router>
   );
 };

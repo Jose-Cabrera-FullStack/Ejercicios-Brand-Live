@@ -1,6 +1,7 @@
 import React from "react";
 
 import "../../assets/styles/components/Subscribe.scss";
+import Form from "./Subscribe/Form";
 
 const Subscribe = (props) => {
   return (
@@ -8,10 +9,7 @@ const Subscribe = (props) => {
       <h5>NEWSLETTTER</h5>
       <h2>SUSCRIBITE</h2>
       <p>Y enterate de todas las novedades</p>
-      <form action="">
-        <input placeholder="ingresa tu mail" type="text" />
-        <img src="" alt="Flecha a la derecha" />
-      </form>
+      <Form />
     </div>
   );
 };

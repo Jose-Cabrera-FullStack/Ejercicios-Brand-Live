@@ -1,0 +1,18 @@
+.footer {
+  height: 270px;
+}
+.footer ul {
+  list-style: none;
+}
+
+.footer_inside {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+}
+
+.footer_under_data {
+  display: flex;
+  place-content: space-between;
+}

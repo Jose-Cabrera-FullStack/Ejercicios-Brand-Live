@@ -10,7 +10,7 @@
 
 .body_inside_left {
   background: white;
-  height: 25em;
+  height: 32em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +21,11 @@
   background-size: cover;
 }
 
+.body_inside_right {
+  display: flex;
+}
+
 .body_inside_items {
-  margin: 55px;
+  margin: auto;
   text-align: center;
 }

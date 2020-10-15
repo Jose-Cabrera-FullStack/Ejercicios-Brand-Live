@@ -3,109 +3,55 @@ import { Link } from "react-router-dom";
 
 import "../assets/styles/components/Footer.scss";
 
-import Logo from "../assets/static/images/svg/logo.svg";
-import Message from "../assets/static/images/svg/message.svg";
-
-import ScrollArrowUp from "./Utils/ScrollArrowUp";
-
 const year = new Date().getFullYear();
 
 const Footer = (props) => {
   return (
-    <>
-      <footer className={"footer" + " " + props.onlyDesktop}>
-        <div className="footer__container">
-          <div className="display__screen__mobile">
-            <figure>
-              <img className="footer__logo" src={Logo} alt="on focus" />
-            </figure>
-          </div>
-
+    <div className="footer">
+      <div className="footer_inside">
+        <div>
+          <img src="" alt="Logo de PUFI" />
+        </div>
+        <div>
+          <ul>
+            <li>PUFI RAIN</li>
+            <li>PUFI PUFF</li>
+            <li>PUFI CART</li>
+            <li>PUFI NAP</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>CONTACTO</li>
+            <li>AYUDA</li>
+            <li>CÓMO COMPRAR</li>
+            <li>TÉRMINOS & CONDICIONES</li>
+          </ul>
+        </div>
+        <div>
+          <h5>COMPRA 100% SEGURA</h5>
           <div>
-            <ol className="footer__container__left">
-              <h5>Accesos</h5>
-              <Link to="/home">
-                <li>Home</li>
-              </Link>
-              <Link to="/sobre-nosotros">
-                <li>About On Focus</li>
-              </Link>
-              <Link to="/cursos">
-                <li>Cursos</li>
-              </Link>
-              <Link to="/contactanos">
-                <li>Contacto</li>
-              </Link>
-              <Link to="/enseña">
-                <li>Quiero dar un curso</li>
-              </Link>
-            </ol>
-            <div className="footer__socials__network">
-              <ol className="footer__container__left--fix">
-                <li className="s4">
-                  <a
-                    href={`https://www.youtube.com/`}
-                    className="iconbtn iconbtn--youtube footer__socials--youtube"
-                  ></a>
-                </li>
-                <li className="s4">
-                  <a
-                    href={`https://www.facebook.com/`}
-                    className="iconbtn iconbtn--facebook footer__socials--facebook"
-                  ></a>
-                </li>
-                <li className="s4">
-                  <a
-                    href={`https://www.instagram.com/`}
-                    className="iconbtn iconbtn--instagram footer__socials--instagram"
-                  ></a>
-                </li>
-              </ol>
-            </div>
-          </div>
-
-          <div className="display__screen__desktop">
-            <figure>
-              <img className="footer__logo__mobile" src={Logo} alt="on focus" />
-            </figure>
-          </div>
-
-          <div className="footer__container__right">
-            <div className="footer__container__right--mobile flex">
-              <div className="footer__container__right--fix">
-                <ol>
-                  <h5>Legales</h5>
-                  <Link to="/politicas">
-                    <li>Politicas de Cookie</li>
-                  </Link>
-                  <Link to="/politicas">
-                    <li>Centro de Ayuda</li>
-                  </Link>
-                  <Link to="/politicas">
-                    <li to="terminos-y-condiciones">
-                      Términos y <br />
-                      condiciones
-                    </li>
-                  </Link>
-                </ol>
-                <div className="footer__help display__screen__desktop">
-                  <img src={Message} alt="Mensaje" />
-                  <p>ayuda@onfocus.com</p>
-                </div>
-              </div>
-              <ScrollArrowUp />
-            </div>
+            <img src="" alt="Codigo QR" />
+            <img src="" alt="Ícono de seguridad" />
+            <p>COMPRÁ CON LA GARANTÍA DE PUFI</p>
           </div>
         </div>
-      </footer>
-      <div className={"footer__reserved" + " " + props.onlyDesktop}>
-        <p>All Rights Reserved {year}.</p>
-        <div className="footer__help footer__help--mobile display__screen__mobile">
-          <img src={Message} alt="Mensaje" />
-          <p>ayuda@onfocus.com</p>
+        <div>
+          <p>SEGUINOS EN</p>
+          <img src="" alt="Ícono de Facebook" />
+          <img src="" alt="Ícono de Twitter" />
+          <img src="" alt="Ícono de Instagram" />
         </div>
       </div>
-    </>
+      <div className="footer_under_data">
+        <div>
+          <p> PUFI Copyright 2017 - Todos los derechos reservados</p>
+        </div>
+        <div>
+          <img src="" alt="Logo de BRAND LIVE" />
+        </div>
+      </div>
+    </div>
   );
 };
 
