@@ -12,7 +12,9 @@ const Principal = (props) => {
           <h1 className="principal_title">
             ESTÁR CÓMODO, NUNCA FUE TAN FÁCIL.
           </h1>
-          <Button />
+          <div className="principal_absolute_button">
+            <Button />
+          </div>
         </div>
         <Slider hasBullets>
           <span className="principal_inside"></span>

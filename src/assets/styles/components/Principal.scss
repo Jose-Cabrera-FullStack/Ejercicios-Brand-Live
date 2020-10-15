@@ -21,9 +21,16 @@
   color: #ffffff;
   text-align: center;
   width: 9em;
+  height: 3em;
 }
 
 .principal_absolute_item {
   position: absolute;
   z-index: 3;
+  text-align: center;
+}
+
+.principal_absolute_button {
+  position: relative;
+  top: 4.2em;
 }
