@@ -1,14 +1,14 @@
 import React from "react";
 
-import Umbrella from "../../../../assets/static/images/img/umbrella-tiny.png";
+import Umbrella from "../../../../assets/static/images/img/tiny-umbrella.png";
 import "../../../../assets/styles/components/Body.scss";
 
-const ItemSide = ({ title, description, img }) => {
+const ItemSide = ({ title, description, src }) => {
   return (
     <div className="body_inside_right">
       <div className="body_inside_items">
-        <img src={img ? img : Umbrella} alt="Sombrilla color Naranja" />
-        <h3>{title ? title : "Puri RAIN"}</h3>
+        <img src={src ? src : Umbrella} alt="Sombrilla color Naranja" />
+        <h3>Pufi {title ? title : "RAIN"}</h3>
         <hr />
         <p>
           {description
